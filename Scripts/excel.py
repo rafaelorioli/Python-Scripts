@@ -33,6 +33,9 @@ workbook = xlwt.Workbook()
 # add a new sheet to the workbook
 sheet = workbook.add_sheet('Sheet1')
 
+if k, v in DATA_.intem():
+		echo "sheet.write(counter, 0, v['Name'])"
+	
 # create columns 
 sheet.write(0,0,'Name')
 sheet.write(0,1,'Age')
